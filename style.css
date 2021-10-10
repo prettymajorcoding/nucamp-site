@@ -1,32 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: Varela Round;
+    font-size: 1.5rem;
 }
 
-h1, h2, h3 {
-    font-family: "Lobster", cursive;
+.logoText, .navText, .aboutHeading, .jumboTitle, .waterlessHeading, .processHeadings {
+    font-family: Righteous;
 }
 
-h2 {
-    color: #3046C5;
+.aboutParagraph {
+    font-size: 1.875rem;
+    text-indent: 50px;
+    line-height: 1.8;
+    margin: 15px 10px;
 }
 
-header h2 {
-    color: #CEC8FF;
+.buttonText {
+    font-family: Righteous;
 }
 
-footer {
-    background-image: linear-gradient(#CEC8FF, white);
-    padding: 20px 0;
+.pinIcon {
+    text-align: center;
+    width: 100%;
+    margin: 5px 0px 20px 0px;
 }
 
-.jumbotron {
-    padding: 30px;
-    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
-    color: white;
-}
-
-.row-content {
-    padding: 50px 0;
-    border-bottom: 1px ridge;
-    min-height: 200px;
-}
