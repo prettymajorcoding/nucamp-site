@@ -1,31 +1,47 @@
+/* preset styling */
 * {
     padding: 0;
     margin: 0;
 }
 
+
+
+/* body styling */
 body {
     font-family: Varela Round;
     font-size: 1.5rem;
 }
 
-.logoText, .navText, .aboutHeading, .jumboTitle, .waterlessHeading, .processHeadings {
+
+
+/* heading styling */
+.righteousFont{
     font-family: Righteous;
 }
 
+/* about styling */
 .aboutParagraph {
     font-size: 1.875rem;
     text-indent: 50px;
     line-height: 1.8;
     margin: 15px 10px;
 }
-
-.buttonText {
-    font-family: Righteous;
-}
-
 .pinIcon {
     text-align: center;
     width: 100%;
     margin: 5px 0px 20px 0px;
+    color: dodgerblue;
+}
+
+/* sections styling */
+.sections{
+    margin-bottom: 75px;
+}
+
+
+/* footer styling */
+.site-footer {
+    background-image: linear-gradient(#017BFE, #017BFE);
+    padding: 20px 0; 
 }
 

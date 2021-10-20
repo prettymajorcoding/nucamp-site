@@ -22,75 +22,335 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Varela+Round&display=swap" rel="stylesheet">
     </head>
-    <body>
-        <div class="container">
-            <!-- nav -->
-            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-            <!-- Brand/logo -->
-                <a class="navbar-brand logoText" href="home.html">Wash Wax DMV</a>      
-                <!-- Links -->
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                    <a class="nav-link navText" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link navText" href="#">About Wash Wax DMV </a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link navText" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link navText" href="#">Gallery</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <!-- jumbotron -->
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container text-center">
-                <h1 class="jumboTitle">Wash Wax DMV </h1>      
-                <p>The mobile auto detailers that come to you</p>
-                <button class="btn btn-primary btn-sm buttonText"> Pricing </button>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <img src="/img/aboutPic.jpg" class="img-thumbnail img-fluid aboutPic" alt="foam soap on blue sedan">
-                </div>
-                <div class="col"> 
-                    <h2 class="aboutHeading text-center"> About Us </h2>
-                    <p class="aboutParagraph text-center"> Wash & Wax D.M.V. understands that you may have a busy schedule, with many things to accomplish; 
-                    that is why we come to you. Whether you are at work on your lunch break or at the mall running errands or 
-                    at home preparing your dinner, we will service your vehicle where ever, whenever! </p>
-                    <i class="fas fa-map-marked-alt fa-3x pinIcon"></i>
-                    <button class="btn btn-primary btn-lg btn-block buttonText"> Book </button>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col text-center my-2">
-                    <h3 class="waterlessHeading"> The Waterless Process </h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col">
-                    <h4 class="processHeadings mb-4"> Spray </h4>
-                    <img src="/img/mistPic.jpg" class="img-fluid img-thumbnail" alt="Responsive image">
-                    <p class="mt-4 processDesc"> Spray a light mist of biodegradable, organic, and water-less car wash solution to the surface of the vehicle to soften, lift, and dissolve dirt. </p>
-                </div>
-                <div class="col">
-                    <h4 class="processHeadings mb-4"> Wipe </h4>
-                    <img src="/img/wipePic.jpg" class="img-fluid img-thumbnail" alt="Responsive image">
-                    <p class="mt-4 processDesc"> Gently wipe with a microfiber towel and lift to pick up grime from vehicle's surface. </p>
-                </div>
-                <div class="col">
-                    <h4 class="processHeadings mb-4"> Buff </h4>
-                    <img src="/img/wipePicture.jpg" class="img-fluid img-thumbnail" alt="Responsive image">
-                    <p class="mt-4 processDesc"> Using a second microfiber towel buff to receive a mirror like flawless finish that last for weeks. </p>
-                </div>
-            </div>
-        </div>
 
+
+    <body >
+        <!-- nav -->
+        <nav class="navbar navbar-expand-sm bg-primary my-0"> <!-- make edges touch-->
+        <!-- brand/logo -->
+            <a class="navbar-brand righteousFont text-white" href="home.html">Wash Wax DMV</a>      
+            <!-- links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link righteousFont text-white" href="#aboutSection">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link righteousFont text-white" href="#servicesSection">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link righteousFont text-white" href="#pricingSection">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link righteousFont text-white" href="#contactSection">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link righteousFont text-white" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link righteousFont text-white" href="faq.html">F.A.Q.</a>
+                </li>
+            </ul> <!-- /links -->
+        </nav> <!-- /nav -->
+        
+
+     
+        <!-- jumbotron -->
+        <div class="jumbotron text-center bg-dark">
+            <h1 class="righteousFont text-white">Wash Wax DMV </h1>    
+            <small class="text-muted">  The mobile auto detailers that come to you</small> <br> <br>
+            <a class="btn btn-sm bg-primary" href="booking.html" role="button">Pricing</a>
+        </div> <!-- /jumbotron -->
+
+        <!-- about us section -->
+        <section class="sections" id="aboutSection">
+            <!-- about us container -->
+            <div class="container">
+                <!-- about us row-->
+                <div class="row">
+                    <!--col 1-->
+                    <div class="col-7">
+                        <img src="/img/aboutPic.jpg" class="img-thumbnail img-fluid aboutPic" alt="foam soap on blue sedan">
+                    </div> <!--/col 1-->
+                    <!--col 2-->
+                    <div class="col-5"> 
+                        <h2 class="righteousFont text-center bg-dark text-white"> About Us </h2>
+                        <p class="aboutParagraph text-center"> Wash & Wax D.M.V. understands that you may have a busy schedule, with many things to accomplish; that is why we come to you. Whether you are at work on your lunch break or at the mall running errands or 
+                        at home preparing your dinner, we will service your vehicle where ever, whenever! </p>
+                        <i class="fas fa-map-marked-alt fa-2x pinIcon"></i>
+                        <a class="btn btn-lg btn-block bg-dark text-white" href="booking.html" role="button">Book Now</a>
+                    </div><!--/col 2-->
+                </div> <!--/about us row-->
+            </div><!--/about us container-->
+        </section><!--/about us section-->
+        
+             <!-- waterless process title -->
+             <section class="sections">
+                 <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <h2 class="righteousFont text-dark"> The Waterless Process </h2> <hr>
+                        </div>
+                    </div> <!--/waterless process title-->
+    
+                    <!-- waterless process rows-->
+                    <div class="row text-center mx-auto">
+                        <!-- spray row -->
+                        <div class="col">
+                            <h4 class="righteousFont mb-4 text-primary"> Spray </h4>
+                            <img src="/img/mistPic.jpg" class="img-fluid img-thumbnail" alt="Responsive image">
+                            <p class="mt-4 processDesc"> Spray a light mist of biodegradable, organic, and water-less car wash solution to the surface of the vehicle to soften, lift, and dissolve dirt. </p>
+                        </div>
+                        <!-- wipe row -->
+                        <div class="col">
+                            <h4 class="righteousFont mb-4 text-primary"> Wipe </h4>
+                            <img src="/img/wipePic.jpg" class="img-fluid img-thumbnail" alt="Responsive image">
+                            <p class="mt-4 processDesc"> Gently wipe with a microfiber towel and lift to pick up grime from vehicle's surface. </p>
+                        </div>
+                        <!-- buff row -->
+                        <div class="col">
+                            <h4 class="righteousFont mb-4 text-primary"> Buff </h4>
+                            <img src="/img/wipePicture.jpg" class="img-fluid img-thumbnail" alt="Responsive image">
+                            <p class="mt-4 processDesc"> Using a second microfiber towel buff to receive a mirror like flawless finish that last for weeks. </p>
+                        </div> <!-- /waterless process col-->
+                    </div> <!-- /waterless process rows-->
+                 </div><!-- /waterless process container-->
+                
+            </section>
+
+
+           <!-- services section-->
+           <section class="sections" id="servicesSection">
+               <div class="container">
+                   <div class="row">
+                       <div class="col-12 text-center">
+                            <h2 class="righteousFont text-primary">Mobile Auto Detailing Services</h2> <hr>
+                       </div>
+                   </div>
+               
+
+                <!--services container-->
+                    
+                        <div class="row">
+                            <div class="col">
+                                <!-- services accordion container-->
+                                <div class="accordion" id="servicesAccordian">
+                                    <!--card 1-->
+                                    <div class="card">
+                                        <!--card-header-->
+                                        <div class="card-header bg-dark" id="headingOne">
+                                            <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left righteousFont text-white" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            301 Foam Wash: 
+                                            </button>
+                                            </h2>
+                                        </div><!--/card-header-->
+                                        <!--collapse 1-->
+                                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#servicesAccordian">
+                                            <!--/card-body-->
+                                            <div class="card-body">
+                                                Some like to believe that if it's not broke; don't fix it!
+                                                For those traditional lovers we provide just the service.  Using a Foam Gun, thick foaming suds lubricate the surface of your car, allowing our technicians to remove dirt, salt, tar and other environmental debris from your vehicle using the reliable soap and water technique.
+                                            </div><!--/card-body-->
+                                        </div><!--/collapse 1-->
+                                    </div><!--/card 1-->
+
+
+                                    <!--card 2-->
+                                    <div class="card">
+                                        <!--card-header2-->
+                                        <div class="card-header bg-primary" id="headingTwo">
+                                            <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left collapsed righteousFont text-white" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                The Metropolitan:
+                                            </button>
+                                            </h2>
+                                        </div><!--/card-header2-->
+                                        <!--collapse 2-->
+                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#servicesAccordian">
+                                            <!--card-body2-->
+                                            <div class="card-body">
+                                                The Metropolitan is a semi detail that achieves a mirror like flawless finish with a three step spray, wipe and buff procedure. Our environmentally friendly distinctive mixture of non toxic cleaning agents, carnauba wax and polymers work to successfully wash and wax your vehicle at the same time!
+                                            </div><!--/card-body2-->
+                                        </div><!--/collapse 2-->
+                                    </div><!--/card 2-->
+
+
+                                        <!--card 3-->
+                                        <div class="card">
+                                            <!--card-header2-->
+                                            <div class="card-header bg-dark" id="headingThree">
+                                                <h2 class="mb-0">
+                                                <button class="btn btn-link btn-block text-left collapsed righteousFont text-white" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                Express Interior or Exterior:
+                                                </button>
+                                                </h2>
+                                            </div><!--/card-header2-->
+                                            <!--collapse 3-->
+                                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#servicesAccordian">
+                                                <!--card-body 3-->
+                                                <div class="card-body">
+                                                    <p> We provide the option of choosing between an Interior or Exterior only detail. Contact us for more information. <p>
+                                                </div><!--/card-body 3-->
+                                            </div><!--/collapse 3-->
+                                        </div><!--/card 3-->
+                                </div> <!-- /services accordian container-->
+                            </div><!--services col-->
+                        </div><!--services row-->
+                    </div> <!--services container-->
+            </section>  
+                
+
+            <!-- pricing container-->
+            <section class="sections" id="pricingSection">
+                <h2 class="text-center righteousFont text-dark">Pricing </h2> <hr>
+                <div class="container">
+                    <div class="card-deck mb-3 text-center">
+
+                        <!-- metropolitan card-->
+                        <div class="card mb-4 shadow-sm">
+                            <div class="card-header bg-primary">
+                                <h4 class="my-0 font-weight-normal righteousFont">301 Foam Wash <small class="text-white">must provide water</small></h4>
+                            </div>
+
+                            <!-- metropolitan card-body-->
+                            <div class="card-body">
+                                <h1 class="card-title pricing-card-title ">$85</h1>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <small class="text-muted"> starting price</small> <br>
+                                    <li>Snow Foam Wash + Wax</li>
+                                    <li>Bug & Tar Removal</li>
+                                    <li>Rim & Tire Treatment</li>
+                                    <li>Interior Vacuum</li>
+                                    <li>Interior Windows & Mirrors Cleaned</li>
+                                    <li>Clean, Protect and Dress all Interior Hard Surfaces</li>
+                                    <li>Complimentary Mats and Fragrance </li>
+                                </ul>
+                                <a class="btn btn-lg bg-dark btn-block text-white" href="booking.html" role="button"> Schedule Appointment</a>
+                            </div><!-- /metropolitan card-body-->
+                        </div><!-- /metropolitan card-->
+
+                        <!-- 301 foam wash card-->
+                        <div class="card mb-4 shadow-sm">
+                            <div class="card-header bg-primary">
+                                <h4 class="my-0 font-weight-normal righteousFont">The Metropolitan </h4>
+                            </div>
+                            
+                            <!-- 301 foam wash card-body-->
+                            <div class="card-body">
+                                <h1 class="card-title pricing-card-title">$100</h1>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <small class="text-muted"> starting price</small>
+                                    <li>Waterless Wash + Wax </li>
+                                    <li>Bug & Tar Removal</li>
+                                    <li>Rim & Tire Treatment</li>
+                                    <li>Interior Vacuum</li>
+                                    <li>Interior Windows & Mirrors Cleaned</li>
+                                    <li>Clean, Protect and Dress all Interior Hard Surfaces</li>
+                                    <li>Complimentary Mats and Fragrance</li>
+                                    
+                                </ul>
+                                <a class="btn btn-lg bg-dark  btn-block text-white" href="booking.html" role="button"> Schedule Appointment</a>
+                            </div> <!-- /301 foam wash card-body-->
+                        </div> <!-- /301 foam wash card-->
+                    </div> <!-- /card deck-->
+                </div> <!-- /pricing container-->
+            </section>
+
+            <!--contact us section-->
+            <section class="sections" id="contactSection">
+                <h2 class="text-center righteousFont text-primary">Contact Us</h2> <hr>
+
+                <div class="container"> <!--contact us container-->
+                    <div class="row"><!--contact us row-->
+
+                        <!--contact us company details col-->
+                        <div class="col">
+                            <h3 class="righteousFont">Phone:</h3>
+                            <a role="button" class="btn btn-link buttonText" href="tel:+3016606540"><i class="fa fa-phone"></i> <span class="ml-2">301-660-6540</span></a><br/>
+                            <h3 class="righteousFont">Summer Hours of Operation</h3>
+                            <p>Monday - Friday 7:00 a.m. - 6:00 p.m.</p>
+                            <h3 class="righteousFont">Service Area:</h3>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Washington D.C.</li>
+                                <li>Prince Georges County</li>
+                                <li>Montgomery County</li>
+                                <li>Anne Arundel County</li>
+                            </ul>
+                            <p>Contact us for Baltimore and Virginia inquiries. </p> 
+                            <h3 class="righteousFont">Follow Us </h3>
+                            <i class="fab fa-instagram"></i> <span class="ml-2">@wash.wax.dmv </span>  <br>
+                        </div><!--/contact us company details-->
+
+                        <!--contact us form-->
+                        <div class="col">
+                            <form>
+                                <div class="form-group">
+                                    <label for="fName" class="col-form-label righteousFont">First name:</label>
+                                        <input type="text" class="form-control" id="fName" placeholder="First name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="lName" class="col-form-label righteousFont">Last name:</label>
+                                    <input type="text" class="form-control" id="lName" placeholder="Last name">
+                                </div>
+                                <div class="form-group ">
+                                    <label for="email" class="col-form-label righteousFont">Email address:</label>
+                                    <div>
+                                        <input type="email" class="form-control" id="email" placeholder="Email">
+                                    </div>
+                                <div class="form-group mt-3">
+                                    <label for="message" class="col-form-label righteousFont">Message:</label>
+                                    <textarea class="form-control" id="message" rows="3"></textarea>
+                                  </div>
+                                  <div class="custom-control custom-checkbox mt-3">
+                                    <input type="checkbox" class="custom-control-input righteousFont" id="detail">
+                                    <label class="custom-control-label" for="detail">Would you like to schedule a detailing appointment within the next 7 days?</label>
+                                  </div>
+                                <button type="submit" class="btn btn-primary righteousFont mt-3 bg-dark">Submit</button>
+                            </form>
+                            <p class="mt-4">Thank you for your interest. We look forward to hearing from you.</p>
+                        </div><!--contact us form-->
+
+                    </div><!--/contact us row-->
+                </div><!--/contact us container-->
+            </section>
+
+            <!--Footer-->
+            <footer class="site-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <!-- nav -->
+                            <nav class="navbar navbar-expand-lg  navbar-dark my-0"> 
+                                    <!-- brand/logo -->
+                                    <a class="navbar-brand righteousFont text-white" href="home.html">Wash Wax DMV</a>    
+                                    <!-- links -->
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item">
+                                            <a class="nav-link righteousFont text-white" href="#pricingSection">Pricing</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link righteousFont text-white" href="#aboutSection">About Us </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link righteousFont text-white" href="#servicesSection">Services</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link righteousFont text-white" href="#contactSection">Contact</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link righteousFont text-white" href="gallery.html">Gallery</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link righteousFont text-white"href="faq.html"> F.A.Q. </a>
+                                        </li>
+                                    </ul> <!-- /links -->
+                            </nav> <!-- /nav -->
+                        </div>
+                   </div>
+                </div>
+            </footer>
+
+          
 
         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
         <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>

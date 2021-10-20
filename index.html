@@ -25,7 +25,8 @@
         <div class="container"> 
             <div class="row">
                 <div class="col-md-4 col-xl-2 mt-4 order-last">
-                    <a  data-toggle="modal" data-target="#reserveModal" role="button" class="btn btn-info btn-lg"> Reserve Campsite </a>
+                    <!-- this is the reserveButton -->
+                    <a id="reserveButton" role="button" class="btn btn-info btn-lg"> Reserve Campsite </a>
                 </div><!-- col-md-4 div-->
                 <div class="col-4 col-sm-3 col-md-2 align-self-center">
                     <img src="img/logo.png" class="img-fluid" />
@@ -40,10 +41,11 @@
     <!-- header ends -->
 
 <!-- reserve modal-->
+<!-- this is the reserveModal -->
     <div id="reserveModal" class="modal fade" role="dialog">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
-                <div class="modal-header bg-info text-white">
+                <div class="modal-header">
                     <h3 class="modal-title">Reserve a Campsite</h3>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
@@ -111,7 +113,7 @@
                     <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Contact</a></li>
                 </ul>
                 <span class="navbar-text ml-auto">
-                    <a role="button" data-toggle="modal" data-target="#loginModal">
+                    <a role="button" id="loginButton">
                         <i class="fa fa-sign-in"></i> Login 
                     </a>
                 </span>

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <!-- Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Page Title -->
+    <title> Booking </title>
+    <!-- Page Stylesheet-->
+    <link rel="stylesheet" href="style.css"/>
+    <!-- Font Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-sm bg-primary my-0"> <!-- make edges touch-->
+        <!-- brand/logo -->
+            <a class="navbar-brand righteousFont text-white" href="home.html">Wash Wax DMV</a>      
+            <!-- links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link righteousFont text-white" href="#aboutSection">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link righteousFont text-white" href="#servicesSection">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link righteousFont text-white" href="#pricingSection">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link righteousFont text-white" href="#contactSection">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link righteousFont text-white" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link righteousFont text-white" href="faq.html">F.A.Q.</a>
+                </li>
+            </ul> <!-- /links -->
+        </nav> <!-- /nav -->
+
+
+         <!-- jumbotron -->
+         <div class="jumbotron text-center bg-dark">
+            <h1 class="righteousFont text-white">Wash Wax DMV </h1>    
+            <small class="text-muted">  The mobile auto detailers that come to you</small> <br> <br>
+            <a class="btn btn-sm bg-primary" href="booking.html" role="button">Pricing</a>
+        </div> <!-- /jumbotron -->
+
+        <!--form container-->
+        <div class="container">
+            <!--form row-->
+            <div class="row">
+                <!--form col 1-->
+                <div class="col">
+                    <!--form-->
+                    <form> 
+                        <!--first name -->
+                        <div class="form-group row">
+                            <label for="firstName" class="col-md-2 col-form-label"> First Name </label>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name">
+                            </div>
+                        </div>
+
+                        <!--last name -->
+                        <div class="form-group row">
+                            <label for="lastName" class="col-md-2 col-form-label"> Last Name </label>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name">
+                            </div>
+                        </div>
+
+                        <!--phone number -->
+                        <div class="form-group row">
+                            <label for="phoneNumber" class="col-md-2 col-form-label"> Phone Number </label>
+                            <div class="col-md-10">
+                                <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="Phone Number">
+                            </div>
+                        </div>
+
+                        <!--email -->
+                        <div class="form-group row">
+                            <label for="email" class="col-md-2 col-form-label"> Email </label>
+                            <div class="col-md-10">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                            </div>
+                        </div>
+
+                        <!--address -->
+                        <div class="form-group row">
+                            <label for="address" class="col-md-2 col-form-label">Address</label>
+                            <div class="col-6 col-md-5">
+                                <input type="text" class="form-control" id="address" name="address" placeholder="Address" />
+                            </div>
+                            <div class="col-md-5">
+                                <input type="text" class="form-control" id="aptNum" name="aptNum" placeholder="Apt. number" />
+                            </div>
+                        </div>
+
+                        <!--city -->
+                        <div class="form-group row">
+                            <label for="city" class="col-md-2 col-form-label">City</label>
+                            <div class="col-6 col-md-5">
+                                <input type="text" class="form-control" id="city" name="city" placeholder="city" />
+                            </div>
+                            <div class="col-md-5">
+                                <select name="state" class="custom-select" name="state" id="state">
+                                    <option value="AL"> AL </option>
+                                    <option value="AK"> AK </option>
+                                    <option value="AZ"> AZ </option>
+                                    <option value="AR"> AR </option>
+                                    <option value="CA"> CA </option>
+                                    <option value="CO"> CO </option>
+                                    <option value="CT"> CT </option>
+                                    <option value="DE"> DE </option>
+                                    <option value="FL"> FL </option>
+                                    <option value="GA"> GA </option>
+                                    <option value="HI"> HI </option>
+                                    <option value="ID"> ID </option>
+                                    <option value="IL"> IL </option>
+                                    <option value="IN"> IN</option>
+                                    <option value="IA"> IA </option>
+                                    <option value="KS"> KS </option>
+                                    <option value="KY"> KY </option>
+                                    <option value="LA"> LA </option>
+                                    <option value="ME"> ME </option>
+                                    <option value="MD"> MD </option>
+                                    <option value="MA"> MA </option>
+                                    <option value="MI"> MI </option>
+                                    <option value="MN"> MN </option>
+                                    <option value="MS"> MS </option>
+                                    <option value="MO"> MO </option>
+                                    <option value="MT"> MT</option>
+                                    <option value="NE"> NE </option>
+                                    <option value="NV"> NV </option>
+                                    <option value="NH"> NH </option>
+                                    <option value="NJ"> NJ </option>
+                                    <option value="NM"> NM </option>
+                                    <option value="NY"> NY </option>
+                                    <option value="NC"> NC </option>
+                                    <option value="ND"> ND </option>
+                                    <option value="OH"> OH </option>
+                                    <option value="OK"> OK </option>
+                                    <option value="OR"> OR</option>
+                                    <option value="PA"> PA </option>
+                                    <option value="RI"> RI </option>
+                                    <option value="SC"> SC </option>
+                                    <option value="SD"> SD </option>
+                                    <option value="TN"> TN </option>
+                                    <option value="TX"> TX </option>
+                                    <option value="UT"> UT </option>
+                                    <option value="VT"> VT </option>
+                                    <option value="VA"> VA </option>
+                                    <option value="WA"> WA </option>
+                                    <option value="WV"> WV</option>
+                                    <option value="WI">WI </option>
+                                    <option value="WY">WY </option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <!--car info -->
+                        <div class="form-group row">
+                            <label for="text" class="col-md-2 col-form-label"> Car make and model? </label>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" id="text" name="text" placeholder="Make and Model">
+                            </div>
+                        </div>
+
+                        <!--date -->
+                        <div class="form-group row">
+                            <label for="date" class="col-md-2 col-form-label"> Preferred Date? </label>
+                            <div class="col-md-10">
+                                <input type="date" class="form-control" id="date" name="date">
+                            </div>
+                        </div>
+
+                        <!-- type -->
+                        <div class="form-group row">
+                            <label for="text" class="col-md-2 col-form-label"> Service Type? </label>
+                            <div class="col-md-10">
+                                <select name="serviceType" id="serviceType" name="serviceType" class="custom-select">
+                                    <option value="foamWash"> 301 Foam Wash </option>
+                                    <option value="metropolitan"> The Metropolitan </option>
+                                    <option value="exteriorOnly"> Exterior Only  </option>
+                                    <option value="interiorOnly"> Interior Only </option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="text" class="col-md-2 col-form-label"> Payment Method? </label>
+                            <div class="col-md-10">
+                                <select name="paymentMethod" id="paymentMethod" name="paymentMethod" class="custom-select">
+                                    <option value="cash"> Cash </option>
+                                    <option value="card"> Card </option>
+                                    <option value="cash app"> Cash App  </option>
+                                    <option value="apple pay"> Apple Pay </option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- message -->
+                        <div class="form-group row">
+                            <label for="message" class="col-md-2 col-form-label">Message</label>
+                            <div class="col-md-10">
+                                <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+                            </div>
+                        </div>
+
+                        <!-- submit -->
+                        <div class="form-group row">
+                            <div class="offset-md-2 col-md-10">
+                                <button type="submit" class="btn btn-dark">Schedule Appointment</button>
+                            </div>
+                        </div>
+                </div><!-- /form col 1 -->
+            </div><!-- /form row -->
+        </div> <!-- /form container -->
+    </form> <!--/form-->
+
+
+<!--Footer-->
+<footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <!-- nav -->
+                <nav class="navbar navbar-expand-lg  navbar-dark my-0"> 
+                        <!-- brand/logo -->
+                        <a class="navbar-brand righteousFont text-white" href="home.html">Wash Wax DMV</a>    
+                        <!-- links -->
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link righteousFont text-white" href="#pricingSection">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link righteousFont text-white" href="#aboutSection">About Us </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link righteousFont text-white" href="#servicesSection">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link righteousFont text-white" href="#contactSection">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link righteousFont text-white" href="gallery.html">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link righteousFont text-white"href="faq.html"> F.A.Q. </a>
+                            </li>
+                        </ul> <!-- /links -->
+                </nav> <!-- /nav -->
+            </div>
+       </div>
+    </div>
+</footer>
+
+</body>
+</html>
